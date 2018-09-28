@@ -12,9 +12,7 @@ defmodule BSONEach.Mix.Utils do
     end
 
     @doc false
-    def click(_) do
-      click
-    end
+    def click(_), do: click()
 
     @doc false
     def click do

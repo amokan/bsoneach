@@ -6,7 +6,7 @@ defmodule BSONEach.Mixfile do
   def project do
     [app: :bsoneach,
      description: "Applies a function to each document in a BSON file.",
-     package: package,
+     package: package(),
      version: @version,
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
